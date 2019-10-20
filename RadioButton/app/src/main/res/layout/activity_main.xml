@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click your favourite"
+        android:gravity="center"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/rgClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rbharry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harry"
+
+            />
+
+        <RadioButton
+            android:id="@+id/rbavenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avenger"/>
+
+        <RadioButton
+            android:id="@+id/rbjoker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joker"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background" >
+
+    </ImageView>
+</LinearLayout>
